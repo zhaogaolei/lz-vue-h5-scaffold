@@ -1,0 +1,44 @@
+{
+  "name": "zmjd-h5",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-test":"vue-cli-service build --mode test",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "core-js": "^3.4.4",
+    "md5": "^2.2.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-e2e-nightwatch": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-router": "^4.1.0",
+    "@vue/cli-plugin-unit-jest": "^4.1.0",
+    "@vue/cli-plugin-vuex": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "chromedriver": "79",
+    "eslint": "^5.16.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "geckodriver": "^1.19.1",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "postcss-pxtorem": "^4.0.1",
+    "vconsole-webpack-plugin": "^1.5.1",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
