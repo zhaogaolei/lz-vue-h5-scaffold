@@ -1,4 +1,3 @@
-# zmjd-h5
 
 ## Project setup
 ```
