@@ -1,23 +1,14 @@
 <template>
   <div class="home">
-    <img
-      alt="Vue logo"
-      src="../../assets/logo.png"
-    >
-    <FirstComponet
-      msg="Welcome to Your Vue.js App"
-      :api-list="apiList"
-      :global-var="globalVar"
-    />
+    <h2>主页</h2>
+    <h3>API：{{ apiList.join() }}</h3>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import FirstComponet from '@/components/FirstComponent'
 // 接口引入
 import API from '@/services'
-
 export default {
   name: 'Home',
   data () {
@@ -26,18 +17,18 @@ export default {
       globalVar: process.env
     }
   },
-  components: {
-    FirstComponet
-  },
   mounted () {
     console.log('接口服务列表：', API)
     console.log('全局变量', process.env)
+  },
+  methods: {
+
   }
 }
 </script>
 
 <style lang="less" scoped>
-img{
-  width: 200px;
+.home{
+  margin-bottom: 54px;
 }
 </style>

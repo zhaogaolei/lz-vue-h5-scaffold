@@ -1,0 +1,1 @@
+exports.name = 'example' // 默认zmjd

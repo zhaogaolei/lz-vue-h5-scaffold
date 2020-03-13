@@ -20,6 +20,16 @@ npm run build
 npm run build-test
 ```
 
+### 组件开发
+```
+npm run example
+```
+
+### 组件发布
+```
+npm run build-example
+```
+
 ### Run your unit tests
 ```
 npm run test:unit
