@@ -80,6 +80,6 @@ export default {
   }
 }
 </script>
-<style lang="less" scoped>
+<style lang="less">
   @import './cell.less';
 </style>
