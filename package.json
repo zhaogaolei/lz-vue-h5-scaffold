@@ -16,7 +16,7 @@
     "build-c": "webpack --config build/webpack.config.js "
   },
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "core-js": "^3.4.4",
     "md5": "^2.2.1",
     "vue": "^2.6.10",
